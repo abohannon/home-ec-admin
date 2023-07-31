@@ -1,11 +1,11 @@
+import EmailConverter from './features/EmailConverter';
+
 function App() {
-
-
   return (
-   <main>
-    Home Ec Admin
-   </main>
-  )
+    <main>
+      <EmailConverter />
+    </main>
+  );
 }
 
-export default App
+export default App;
